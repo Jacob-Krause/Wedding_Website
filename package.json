@@ -1,0 +1,22 @@
+{
+  "name": "wedding_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob-Krause/Wedding_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacob-Krause/Wedding_Website/issues"
+  },
+  "homepage": "https://github.com/Jacob-Krause/Wedding_Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
