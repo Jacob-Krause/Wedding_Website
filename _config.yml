@@ -5,3 +5,4 @@ title: "" # the name of your site, e.g. ACME Corp.
 sass:
     load_paths: 
         - _sass
+    style: compressed
