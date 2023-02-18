@@ -54,7 +54,62 @@
         </div>
     </div>
 </nav>
-    <div class="container position-absolute top-50 start-50 translate-middle">
+    <style>
+    .carousel-control-prev,
+    .carousel-control-next
+{
+    visibility: hidden;
+    opacity: 1;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next
+{
+    visibility: visible;
+    animation-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.carousel:hover .carousel-control-prev
+{
+    animation-name: FadeInPrev;
+}
+
+.carousel:hover .carousel-control-next
+{
+    animation-name: FadeInNext;
+}
+
+@keyframes FadeInPrev
+{
+    0%
+    {
+        opacity: 0;
+        padding-left: 40px;
+    }
+    100%
+    {
+        opacity: 1;
+        padding-left: 0px;
+    }
+}
+
+@keyframes FadeInNext
+{
+    0%
+    {
+        opacity: 0;
+        padding-right: 40px;
+    }
+    100%
+    {
+        opacity: 1;
+        padding-right: 0px;
+    }
+}
+</style>
+
+<div class="container position-absolute top-50 start-50 translate-middle">
 <div class="row ">
     <div class="col-md-6 offset-md-3">
         <div id="EngagementSlideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
